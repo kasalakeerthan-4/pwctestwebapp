@@ -1,5 +1,5 @@
 FROM centos
-LABEL  "name"="ashutoshh"
+LABEL  "name"="keerthan"
 RUN dnf install httpd -y
 COPY index.html /var/www/html/
 # /var/www/html/ is a location where you need to put your web code 
